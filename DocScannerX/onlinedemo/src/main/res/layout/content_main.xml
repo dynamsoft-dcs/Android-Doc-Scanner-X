@@ -45,24 +45,25 @@
 
 	<ImageView
 		android:id="@+id/iv_thumb"
-		android:layout_width="50dp"
-		android:layout_height="50dp"
+		android:layout_width="52dp"
+		android:layout_height="52dp"
 		android:layout_alignParentBottom="true"
 		android:layout_marginBottom="17dp"
 		android:layout_marginLeft="28dp"
 		android:padding="5dp"
+		android:scaleType="fitXY"
 		android:visibility="gone"
 		/>
 
 	<ImageView
 		android:id="@+id/iv_tick"
-		android:layout_width="30dp"
-		android:layout_height="30dp"
+		android:layout_width="24dp"
+		android:layout_height="24dp"
 		android:layout_alignParentBottom="true"
 		android:layout_alignParentRight="true"
-		android:layout_marginBottom="18dp"
-		android:layout_marginRight="30dp"
-		android:src="@drawable/icn_tick"
+		android:layout_marginBottom="30dp"
+		android:layout_marginRight="28dp"
+		android:src="@mipmap/icn_tick"
 		android:visibility="gone"
 		/>
 
